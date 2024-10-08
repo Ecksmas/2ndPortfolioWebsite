@@ -1,76 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects - Marcai</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="/css/sharedStyles.css">
 </head>
+
 <body>
-    
-<nav>
-    <img class="nav-image" src="/images/favicon.png" alt="profile pic" width="5%">
-    <a class="nav-text" href="/index.html">HOME</a>
-    <a class="nav-text" href="/about.html">ABOUT</a>
-    <a class="nav-text" href="mailto:ludde.oelker@gmail.com">CONTACT</a>
-</nav>
 
-<section>
-    <div class="overview-details">
-        <div class="project-details">
-            <div class="paragrap-heading">
-                <strong>DOMAIN</strong>
-                <br>
-                EMBEDDED SYSTEMS
-            </div>
-            <div class="paragrap-heading">
-                <strong>CLIENT</strong>
-                <br>
-                Chas Academy
-            </div>
-            <div class="paragrap-heading">
-                <strong>TEAM</strong>
-                <br>
-                Olle Mattsson
-                <br>
-                Daniel Goldmann Lapington
-                <br>
-                Nils Wahlberg
-            </div>
-            <div class="paragrap-heading">
-                <strong>MY ROLES</strong>
-                <br>
-                Scrum Master
-                Developer
-            </div>
-            <div class="paragrap-heading">
-                <strong>SKILLS</strong>
-                <br>
-                Bare metal coding
-                <br>
-                Idea creation
-                <br>
-                Sourcing and Planning
-                <br>
-                Leadership
-            </div>
+    <header>
+        <a href="/index.html"><img class="nav-image" src="/images/favicon.png" alt="profile pic" width="5%"></a>
+        <nav>
+            <a class="nav-text" href="/index.html">HOME</a>
+            <a class="nav-text" href="/about.html">ABOUT</a>
+            <a class="nav-text" href="mailto:ludde.oelker@gmail.com">CONTACT</a>
+        </nav>
+    </header>
 
+    <main>
+        <article>
+            <section>
+                <div class="overview-details">
+                    <div class="project-details">
+                        <div class="paragrap-heading">
+                            <strong>DOMAIN</strong>
+                            <br>
+                            EMBEDDED SYSTEMS
+                        </div>
+                        <div class="paragrap-heading">
+                            <strong>CLIENT</strong>
+                            <br>
+                            Chas Academy
+                        </div>
+                        <div class="paragrap-heading">
+                            <strong>TEAM</strong>
+                            <br>
+                            Olle Mattsson
+                            <br>
+                            Daniel Goldmann Lapington
+                            <br>
+                            Nils Wahlberg
+                        </div>
+                        <div class="paragrap-heading">
+                            <strong>MY ROLES</strong>
+                            <br>
+                            Scrum Master
+                            Developer
+                        </div>
+                        <div class="paragrap-heading">
+                            <strong>SKILLS</strong>
+                            <br>
+                            Bare metal coding
+                            <br>
+                            Idea creation
+                            <br>
+                            Sourcing and Planning
+                            <br>
+                            Leadership
+                        </div>
+
+                    </div>
+                    <div class="project-description">
+                        <p class="project-paragraph">
+                            A physical music box that is designed to collect data via sensors on a arduino which then
+                            sends
+                            the data to an raspberry pi pico w,
+                            which calls a API connected to an AI music generator that gets fed different parameters from
+                            the
+                            box.
+                            Ultimately the song is saved and streamed from a azure databse and played via the pico.
+
+                            In its current form, the project does not actually make API calls which generate songs,
+                            but instead accesses a database which has pre-generated songs.
+                            The songs have different tags on them which are used when making a call with the sensor
+                            data.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+        </article>
+        <img src="/images/marcaiDemoPic.png" alt="projectPicture" width="80%">
+    </main>
+
+    <footer>
+        <h1>GET IN TOUCH</h1>
+        <a class="footer-item" href="mailto:ludde.oelker@gmail.com">LUDDE.OELKER@GMAIL.COM</a>
+        <a class="footer-item" href="www.linkedin.com/in/ludwig-oelker/" target="_blank">LINKEDIN</a>
+        <a class="footer-item" href="www.github.com/Ecksmas" target="_blank">GITHUB</a>
+        <div class="footer-item">© Ludwig Oelker 2024
         </div>
-        <div class="project-description">
-            <p class="project-paragraph">
-                A physical music box that is designed to collect data via sensors on a arduino which then sends the data to an raspberry pi pico w,
-                which calls a API connected to an AI music generator that gets fed different parameters from the box. 
-                Ultimately the song is saved and streamed from a azure databse and played via the pico.
-
-                In its current form, the project does not actually make API calls which generate songs, 
-                but instead accesses a database which has pre-generated songs. 
-                The songs have different tags on them which are used when making a call with the sensor data.
-            </p>
-        </div>
-    </div>
-</section>
-
-<img src="/images/marcaiDemoPic.png" alt="projectPicture" width="80%">
+    </footer>
 
 </body>
+
 </html>

@@ -1,64 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Ludwig Oelker</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/sharedStyles.css">
 </head>
+
 <body>
+    <header>
+        <a href="/index.html"><img class="nav-image" src="images/favicon.png" alt="profile pic" width="5%"></a>
+        <nav>
+            <a class="nav-text" href="index.html">HOME</a>
+            <a class="nav-text" href="about.html">ABOUT</a>
+            <a class="nav-text" href="mailto:ludde.oelker@gmail.com">CONTACT</a>
+        </nav>
+    </header>
 
-<nav>
-    <img class="nav-image" src="images/favicon.png" alt="profile pic" width="5%">
-    <a class="nav-text" href="index.html">HOME</a>
-    <a class="nav-text" href="about.html">ABOUT</a>
-    <a class="nav-text" href="mailto:ludde.oelker@gmail.com">CONTACT</a>
-</nav>
+    <h1 class="index-title">
+        ludwig oelker
+    </h1>
 
-<h1 class="index-title">
-    ludwig oelker
-</h1>
+    <main>
+        <article>
+            <section class="intro-text">
+                <p>Welcome!
+                    <br>
+                    I am a Stockholm-based financial analyst turned software developer, passionate about embedded system
+                    and
+                    game development.
+                    Presently, I am studying at <a href="https://chasacademy.se/" target="_blank">Chas Academy</a> where
+                    i focus
+                    on C/C++ system devlopment,
+                </p>
+            </section>
 
-<section class="intro-text">
-    <p>Welcome!
-    <br>
-    I am a Stockholm-based financial analyst turned software developer, passionate about embedded system and game development. 
-        Presently, I am studying at <a href="https://chasacademy.se/" target="_blank">Chas Academy</a> where i focus on C/C++ system devlopment,
-    </p>
-</section>
-
-<section>
-    <div class="work-section">
-        <div class="work-card">
-            <div class="work-card-content">
-                <div class="work-card-image-column w-col wcol-1">
-                    <div class="work-image-div">
-                        <img class="work-card-image" src="images/projectMarcai.png" alt="Profile Picture"/>
+            <section>
+                <div class="work-section">
+                    <div class="work-card">
+                        <div class="work-card-content">
+                            <div class="work-card-image-column w-col wcol-1">
+                                <div class="work-image-div">
+                                    <img class="work-card-image" src="images/projectMarcai.png" alt="Profile Picture" />
+                                </div>
+                            </div>
+                            <div class="work-card-description w-col-2">
+                                <div class="project-mini-head">EMBEDDED DEVELOPMENT</div>
+                                <div class="project-title">PROJECT MARCAI</div>
+                                <div class="project-header">SENSOR BASED MUSIC</div>
+                                <div class="card-description">
+                                    Coding, sourcing and planning for a project focused on coding in a bare metal
+                                    environment
+                                    for a project that generates AI generated music based on sensory data.
+                                </div>
+                                <a class="read-more" href="projects/marcai.html">READ MORE</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="work-card-description w-col-2">
-                    <div class="project-mini-head">EMBEDDED DEVELOPMENT</div>
-                    <div class="project-title">PROJECT MARCAI</div>
-                    <div class="project-header">SENSOR BASED MUSIC</div>
-                    <div class="card-description">
-                        Coding, sourcing and planning for a project focused on coding in a bare metal environment for a project that generates AI generated music based on sensory data.
-                    </div>
-                    <a class="read-more" href="projects/marcai.html">READ MORE</a>
-                </div>
-            </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <h1>GET IN TOUCH</h1>
+        <a class="footer-item" href="mailto:ludde.oelker@gmail.com">LUDDE.OELKER@GMAIL.COM</a>
+        <a class="footer-item" href="www.linkedin.com/in/ludwig-oelker/" target="_blank">LINKEDIN</a>
+        <a class="footer-item" href="www.github.com/Ecksmas" target="_blank">GITHUB</a>
+        <div class="footer-item">© Ludwig Oelker 2024
         </div>
-    </div>
-</section>
-
-<footer>
-    <h1>GET IN TOUCH</h1>
-    <a class="connect-links" href="mailto:ludde.oelker@gmail.com">LUDDE.OELKER@GMAIL.COM</a>
-    <a class="connect-links" href="www.linkedin.com/in/ludwig-oelker/" target="_blank">LINKEDIN</a>
-    <a class="connect-links" href="github.com/Ecksmas" target="_blank">GITHUB</a>
-    <div class="copyright">© Ludwig Oelker 2024
-        <img class="copyright-favicon" src="images/favicon.png" alt="favicon" width="1%">
-    </div>
-</footer>
+    </footer>
 </body>
+
 </html>

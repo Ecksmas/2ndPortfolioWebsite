@@ -1,0 +1,115 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Sofia Pro Regular;
+    src: url(/fonts/Sofia\ Pro\ Regular\ Az.otf\ Az.otf);
+    font-family: Sofia Pro Bold;
+    src: url(/fonts/Sofia\ Pro\ Black\ Az.otf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Sofia Pro, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    margin-top: 3vh;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color:coral;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    align-content: flex-end;
+}
+
+main {
+    background-color: aquamarine;
+    line-height: 1.7em;
+    color: #171A21;
+    display: flex;
+    flex-direction: column;
+    max-width: 2000px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+h1 {
+    font-family: Sofia Pro Bold;
+    line-height: 1.27em;
+}
+
+.nav-text {
+    margin-right: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-image {
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    width: 3em;
+    object-fit: contain;
+}
+
+.nav-text:hover {
+    background-color: aliceblue;
+}
+
+.copyright-favicon {
+    width: 1em;
+}
+
+.w-col-1 {
+    width: 40%;
+}
+
+.w-col-2 {
+    width: 60%
+}
+
+.w-col {
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.8em 10em;
+    justify-content: space-between;
+    align-items: flex-end;
+    bottom: 0;
+}
+
+.footer-item {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-item:hover {
+    text-decoration: underline;
+}
+

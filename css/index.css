@@ -1,0 +1,86 @@
+
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.index-title {
+    height: auto;
+    margin-top: 2.8em;
+    margin-bottom: 20vw;
+    padding-right: 0em;
+    padding-left: 0em;
+    font-size: 3.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.work-section {
+    background-color: cadetblue;
+    margin-top: 4vw;
+    margin-bottom: 4em;
+    padding-top: 10em;
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+.work-card-content {
+    background-color: bisque;
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+
+.work-card-image-column {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.work-image-div {
+    margin-right: 4em;
+}
+
+.work-card-image {
+    width: 20em;
+}
+
+.work-card-description {
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-right: 0em;
+    padding-left: 4em;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.project-mini-head {
+    display: flex;
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+    color: #1d184e;
+    font-size: 1.3em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.project-title {
+
+}
+
+.project-header {
+
+}
+
+.card-description {
+    width: auto;
+    max-width: 650px;
+    color: #1d184e;
+    font-size: 1.5em;
+    line-height: 1.7em;
+    font-weight: 300;
+}
