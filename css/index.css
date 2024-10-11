@@ -1,4 +1,11 @@
-
+.parallax {
+    background-image: url(/betelgeuse.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 img {
     display: inline-block;
@@ -18,7 +25,6 @@ img {
 }
 
 .work-section {
-    background-color: cadetblue;
     margin-top: 4vw;
     margin-bottom: 4em;
     padding-top: 10em;
@@ -67,13 +73,9 @@ img {
     text-transform: uppercase;
 }
 
-.project-title {
+.project-title {}
 
-}
-
-.project-header {
-
-}
+.project-header {}
 
 .card-description {
     width: auto;
