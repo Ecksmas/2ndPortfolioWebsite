@@ -1,18 +1,31 @@
-
-
 img {
     display: inline-block;
     max-width: 100%;
     vertical-align: middle;
 }
 
-.index-title {
+.intro-text {
+    width: 70%;
     height: auto;
+}
+
+.intro-text p {
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.intro-text a {
+    font-size: inherit;
+    line-height: inherit;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+.index-title {
     margin-top: 2.8em;
-    margin-bottom: 20vw;
-    padding-right: 0em;
-    padding-left: 0em;
-    font-size: 3.8em;
+    margin-bottom: 2em;
+    font-size: 4.8em;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -21,9 +34,10 @@ img {
     background-color: cadetblue;
     margin-top: 4vw;
     margin-bottom: 4em;
-    padding-top: 10em;
+    padding-top: 4em;
     padding-left: 0em;
     padding-right: 0em;
+    padding-bottom: 1em;
 }
 
 .work-card-content {
