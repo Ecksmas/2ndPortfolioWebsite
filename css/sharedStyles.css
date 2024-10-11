@@ -40,6 +40,7 @@ main {
     max-width: 2000px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 7vh;
     justify-content: flex-start;
     align-items: stretch;
 }

@@ -1,0 +1,36 @@
+.about-top {
+    margin-top: 20vh;
+}
+
+.about-title {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.connect-container a {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5vh;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+}
+
+.connect-container a:hover {
+    text-decoration: underline;
+} 
+
+.connect-container {
+    margin-top: 3vh;
+}
+
+.about-header-text {
+    display: flex;
+    align-items: flex-end;
+    line-height: 1.7em;
+    margin-left: auto;
+}
+
+.main-image-about {
+    width: 27vw;
+}
