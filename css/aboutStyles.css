@@ -1,5 +1,11 @@
+img {
+    display: inline-block;
+    max-width: 100%;
+}
+
 .about-top {
     margin-top: 20vh;
+    margin-left: 2vw
 }
 
 .about-title {
@@ -14,11 +20,13 @@
     text-decoration: none;
     color: black;
     width: fit-content;
+    font-weight: 600;
+    color: grey;
 }
 
 .connect-container a:hover {
     text-decoration: underline;
-} 
+}
 
 .connect-container {
     margin-top: 3vh;
@@ -28,9 +36,50 @@
     display: flex;
     align-items: flex-end;
     line-height: 1.7em;
-    margin-left: auto;
+    padding-left: 40vw;
+    margin-top: 10vh;
+    margin-right: 2vw;
+}
+
+.main-image-container {
+    display: flex;
+    align-items: center;
+    margin-top: 8em;
 }
 
 .main-image-about {
-    width: 27vw;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-cards {
+    margin-top: 5em;
+}
+
+.about-card {
+    display: flex;
+    align-items: center;
+}
+
+.about-card-image-div {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.about-card-image-div img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.about-card-description {
+    display: flex;
+    height: 45em;
+    padding-right: 1em;
+    padding-left: 2em;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
 }
