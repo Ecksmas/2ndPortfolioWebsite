@@ -5,7 +5,6 @@ img {
 }
 
 .intro-text {
-    width: 70%;
     height: auto;
 }
 
@@ -23,11 +22,19 @@ img {
 }
 
 .index-title {
-    margin-top: 2.8em;
+    margin-top: 1.8em;
     margin-bottom: 2em;
     font-size: 4.8em;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.page-title-home {
+    height: auto;
+    margin-top: 2.8em;
+    margin-bottom: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
 }
 
 .work-section {
@@ -81,13 +88,9 @@ img {
     text-transform: uppercase;
 }
 
-.project-title {
+.project-title {}
 
-}
-
-.project-header {
-
-}
+.project-header {}
 
 .card-description {
     width: auto;

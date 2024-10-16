@@ -7,14 +7,22 @@
     <title>Projects - Marcai</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="stylesheet" href="/css/sharedStyles.css">
+    <link rel="stylesheet" href="/css/marcaiStyles.css">
 </head>
 
 <body>
-
     <header>
         <a href="/index.html"><img class="nav-image" src="/images/favicon.png" alt="profile pic" width="5%"></a>
         <nav>
             <a class="nav-text" href="/index.html">HOME</a>
+            <div class="dropdown">
+                <button class="drop-button">PROJECTS
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a class="nav-text-dropdown" href="/projects/marcai.html">MARCAI</a>
+                </div>
+            </div>
             <a class="nav-text" href="/about.html">ABOUT</a>
             <a class="nav-text" href="mailto:ludde.oelker@gmail.com">CONTACT</a>
         </nav>
@@ -22,68 +30,81 @@
 
     <main>
         <article>
-            <section>
+            <section class="project-top">
+                <div class="page-title">
+                    <h2 class="project-page-title">
+                        BRIDGING THE GAP BETWEEN SOFT AND HARDWARE THROUGH MUSIC
+                    </h2>
+                </div>
                 <div class="overview-details">
                     <div class="project-details">
-                        <div class="paragrap-heading">
-                            <strong>DOMAIN</strong>
-                            <br>
-                            EMBEDDED SYSTEMS
+                        <div class="project-details-column">
+                            <div class="mini-column1">
+                                <div class="paragrap-heading">
+                                    <strong class="mini-heading">DOMAIN</strong>
+                                    <br>
+                                    EMBEDDED SYSTEMS
+                                </div>
+                                <div class="paragrap-heading">
+                                    <strong class="mini-heading">CLIENT</strong>
+                                    <br>
+                                    Chas Academy
+                                </div>
+                                <div class="paragrap-heading">
+                                    <strong class="mini-heading">TEAM</strong>
+                                    <br>
+                                    Olle Mattsson
+                                    <br>
+                                    Daniel Goldmann Lapington
+                                    <br>
+                                    Nils Wahlberg
+                                </div>
+                            </div>
+                            <div class="mini-column2">
+                                <div class="paragrap-heading">
+                                    <strong class="mini-heading">MY ROLES</strong>
+                                    <br>
+                                    Scrum Master
+                                    Developer
+                                </div>
+                                <div class="paragrap-heading">
+                                    <strong class="mini-heading">SKILLS</strong>
+                                    <br>
+                                    Bare metal coding
+                                    <br>
+                                    Idea creation
+                                    <br>
+                                    Sourcing and Planning
+                                    <br>
+                                    Leadership
+                                </div>
+                            </div>
                         </div>
-                        <div class="paragrap-heading">
-                            <strong>CLIENT</strong>
-                            <br>
-                            Chas Academy
-                        </div>
-                        <div class="paragrap-heading">
-                            <strong>TEAM</strong>
-                            <br>
-                            Olle Mattsson
-                            <br>
-                            Daniel Goldmann Lapington
-                            <br>
-                            Nils Wahlberg
-                        </div>
-                        <div class="paragrap-heading">
-                            <strong>MY ROLES</strong>
-                            <br>
-                            Scrum Master
-                            Developer
-                        </div>
-                        <div class="paragrap-heading">
-                            <strong>SKILLS</strong>
-                            <br>
-                            Bare metal coding
-                            <br>
-                            Idea creation
-                            <br>
-                            Sourcing and Planning
-                            <br>
-                            Leadership
-                        </div>
-
                     </div>
-                    <div class="project-description">
-                        <p class="project-paragraph">
-                            A physical music box that is designed to collect data via sensors on a arduino which then
-                            sends
-                            the data to an raspberry pi pico w,
-                            which calls a API connected to an AI music generator that gets fed different parameters from
-                            the
-                            box.
-                            Ultimately the song is saved and streamed from a azure databse and played via the pico.
-
-                            In its current form, the project does not actually make API calls which generate songs,
-                            but instead accesses a database which has pre-generated songs.
-                            The songs have different tags on them which are used when making a call with the sensor
-                            data.
-                        </p>
-                    </div>
+                <div class="project-description">
+                    <p class="project-paragraph">
+                        A physical music box that is designed to collect data via sensors on a arduino which then
+                        sends
+                        the data to an raspberry pi pico w,
+                        which calls a API connected to an AI music generator that gets fed different parameters from
+                        the
+                        box.
+                        Ultimately the song is saved and streamed from a azure databse and played via the pico.
+                    </p>
+                    <p class="project-paragraph">
+                        In its current form, the project does not actually make API calls which generate songs,
+                        but instead accesses a database which has pre-generated songs.
+                        The songs have different tags on them which are used when making a call with the sensor
+                        data.
+                    </p>
                 </div>
-
+            </div>
+        </div>
             </section>
         </article>
-        <img src="/images/marcaiDemoPic.png" alt="projectPicture" width="80%">
+        <div class="img-container">
+            <img src="/images/marcaiDemoPic.png" alt="projectPicture" width="80%">
+        </div>
     </main>
 
     <footer>

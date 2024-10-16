@@ -4,8 +4,8 @@ img {
 }
 
 .about-top {
-    margin-top: 20vh;
-    margin-left: 2vw
+    margin-top: 15em;
+    padding-left: 10vw
 }
 
 .about-title {
@@ -36,7 +36,7 @@ img {
     display: flex;
     align-items: flex-end;
     line-height: 1.7em;
-    padding-left: 40vw;
+    padding-left: 30vw;
     margin-top: 10vh;
     margin-right: 2vw;
 }
