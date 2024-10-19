@@ -29,6 +29,9 @@ header {
     right: 0;
     background-color:#ff5c00;
     width: 100%;
+    opacity: 0;
+    transform: translateY(-20vw);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 main {
@@ -42,6 +45,14 @@ main {
     margin-top: 7vh;
     justify-content: flex-start;
     align-items: stretch;
+    opacity: 0;
+    transform: translateX(20vh);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in {
+    opacity: 1 !important;
+    transform: translate(0,0) !important;
 }
 
 h1 {
@@ -70,7 +81,7 @@ nav a {
 }
 
 .nav-image {
-    margin: 0 0 0.3vw 0.3vw;
+    margin-left: 0.3vw;
     width: 4.5em;
 }
 
